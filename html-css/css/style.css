@@ -1,0 +1,94 @@
+/* --------- TheBody --------- */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.theTemplate{
+    display: flex;
+    display: block;
+    flex-wrap: wrap;
+}
+/* --------- TheBody --------- */
+/* --------- Header --------- */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255) ;
+}
+
+li {
+    float: left;
+    background-color: rgb(253, 239, 209);
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: grey#111;
+}
+
+.active {
+    background-color: grey;
+}
+.theLogo{
+	border-radius: 3px;
+    background-color: grey;
+	height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+   
+}
+
+/* --------- Header --------- */
+/* --------- Lorem ipsum --------- */
+.loremContainer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(255, 144, 56);
+    border-radius: 1.5px;
+    margin-top: 50px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+/* --------- Lorem ipsum --------- */
+/* --------- CARD --------- */
+.cardImages{
+	display: flex;
+}
+.cardImages1{
+    display: flex;
+    justify-content: center;
+}
+div.polaroid {
+  width: 20%;
+  margin: auto;
+}
+div.polaroid1 {
+    width: 40vw;
+    height: 60vh;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgb(182, 178, 178);
+  }
+  div.polaroid2 {
+    width: 35vw;
+    height: 60vh;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+/* --------- CARD --------- */
